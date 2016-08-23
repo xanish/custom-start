@@ -1,2 +1,7 @@
-# custom-firefox-start
-Custom made start page
+# Meme-imal - custom-firefox-start #
+A minimal start page
+
+## Pending ##
+* Weather
+* Quotes
+* More ??
