@@ -1,0 +1,86 @@
+/*@import "https://fontlibrary.org/face/fantasque-sans-mono";*/
+@font-face {
+    font-family: FantasqueSansMonoRegular;
+    src: url('../fonts/FantasqueSansMono-Regular.ttf');
+}
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    /*color: #6dc2a3;*/
+    color: #5294E2;
+}
+body {
+    /*background-color: #273941;*/
+    background-color: #323638;
+}
+a, a:hover, a:focus {
+    color: inherit;
+}
+.wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.clock {
+    position: relative;
+    color: inherit;
+    font-size: 180px;
+    font-weight: bold;
+    font-family: 'FantasqueSansMonoRegular';
+    width: 560px;
+    margin: 0 auto;
+}
+.time {
+    font-size: 40px;
+    position: inherit;
+    top: -94px;
+}
+.day1 {
+    font-size: 40px;
+    position: inherit;
+    top: -60px;
+    left: -34px;
+}
+.day2 {
+    font-size: 40px;
+    position: inherit;
+    top: -30px;
+    left: -57px;
+}
+.day3 {
+    font-size: 40px;
+    position: inherit;
+    top: 0px;
+    left: -80px;
+}
+.sites {
+    padding: 0px;
+    width: 450px;
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
+}
+.greeting {
+    font-family: 'FantasqueSansMonoRegular';
+    font-size: 50px;
+}
+.sites > li {
+    padding: 20px;
+    font-size: 50px;
+}
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+input {
+    background-color: inherit;
+    border: 2px solid #5294E2;
+    padding: 10px;
+    width: inherit;
+    font-size: 18px;
+    font-family: 'Roboto'
+}
