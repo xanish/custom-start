@@ -22,7 +22,10 @@ function startTime() {
     }
     else if(h <= 24) {
         greet = "Good Evening, Danish.";
-        if(h == 24) { h = 0 };
+        if(h == 24 || h == 0) {
+            h = 0;
+            greet = "Good Morning, Danish."
+        }
     }
     h = checkTime(h);
     document.getElementById('clock').innerHTML = h + ":" + m + weekday[day];
