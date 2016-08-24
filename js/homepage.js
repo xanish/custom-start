@@ -17,21 +17,15 @@ function startTime() {
     var greet = "Good Morning, Danish."
     m = checkTime(m);
     s = checkTime(s);
-    if(h <= 12) {
-        am_pm = "AM";
+    if(h > 12 && h < 17) {
+        greet = "Good Afternoon, Danish.";
     }
-    else {
-        am_pm = "PM";
-        h = h % 12;
-        if(h <= 5) {
-            greet = "Good Afternoon, Danish."
-        }
-        else {
-            greet = "Good Evening, Danish."
-        }
+    else if(h <= 24) {
+        greet = "Good Evening, Danish.";
+        if(h == 24) { h = 0 };
     }
     h = checkTime(h);
-    document.getElementById('clock').innerHTML = h + ":" + m + "<span class='time'>" + am_pm + "</span>" + weekday[day];
+    document.getElementById('clock').innerHTML = h + ":" + m + weekday[day];
     document.getElementById('greeting').innerHTML = greet;
     var t = setTimeout(startTime, 500);
 }
