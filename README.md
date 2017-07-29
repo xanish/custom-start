@@ -1,9 +1,4 @@
-# Meme-imal - custom-start #
+# Minimal Start Page #
 A minimal start page
 
-## WIP ##
-* Quotes
-
-## Pending ##
-* Weather
-* More ??
+![ScreenShots](images/MinimalStartPage.png)

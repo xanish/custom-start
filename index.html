@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Meme-imal</title>
-    <script src="js/homepage.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="css/homepage.css" media="screen" charset="utf-8">
-    <script src="https://use.fontawesome.com/dfa2b313d5.js"></script>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/style.css" media="screen" charset="utf-8">
 </head>
-<body onload="startTime()">
-    <div class="wrapper">
-        <div id="clock" class="clock">
-        </div>
-        <div class="greeting" id="greeting">
-        </div>
-        <form class="" action="http://www.google.com/search" method="get">
-            <input type="hidden" name="q" value="site:http://example.com">
-            <input type="text" name="q" alt="search" placeholder="Google">
-        </form>
-        <ul class="sites">
-            <li><a href="https://mail.google.com/mail/u/0/#inbox"><span class="fa fa-envelope"></span></a></li>
-            <li><a href="https://www.youtube.com/"><span class="fa fa-youtube-play"></span></a></li>
-            <li><a href="https://drive.google.com/drive/my-drive"><span class="fa fa-cloud"></span></a></li>
-            <li><a href="https://www.reddit.com/"><span class="fa fa-reddit-alien"></span></a></li>
-            <li><a href="https://keep.google.com/"><span class="fa fa-sticky-note"></span></a></li>
-            <li><a href="https://github.com/xanish"><span class="fa fa-github"></span></a></li>
-            <li><a href="http://stackoverflow.com/"><span class="fa fa-stack-overflow"></span></a></li>
-        </ul>
-        <blockquote>
-            <span class="fa fa-quote-left padding-right"></span>If we ever stop thinking about the person we want to become, we stop learning and taking risks.<span class="fa fa-quote-right padding-left"></span>
-        </blockquote>
+<body>
+  <div class="wrapper">
+    <div id="logo">
+      <span style="color: var(--blue)">G</span>
+      <span style="color: var(--red)">o</span>
+      <span style="color: var(--yellow)">o</span>
+      <span style="color: var(--blue)">g</span>
+      <span style="color: var(--green);)">l</span>
+      <span style="color: var(--red);)">e</span>
     </div>
+    <form class="" action="http://www.google.com/search" method="get">
+      <input type="text" name="q" alt="search" autocomplete="off" placeholder="&#xf002; &nbsp; Search ">
+    </form>
+  <div id="icons" style="font-size:30px">
+    <i id="github" class="fa fa-github-alt" onclick="Javascript: window.location = 'https://github.com/xanish'"></i>
+    <i id="mail" class="fa fa-envelope" onclick="Javascript: window.location = 'https://mail.google.com'"></i>
+    <i id="keep" class="fa fa-sticky-note" onclick="Javascript: window.location = 'https://keep.google.com'"></i>
+    <i id="drive" class="fa fa-cloud" onclick="Javascript: window.location = 'https://drive.google.com'"></i>
+    <i id="facebook" class="fa fa-facebook" onclick="Javascript: window.location = 'https://facebook.com/messages'"></i>
+    <i id="youtube" class="fa fa-youtube-play" onclick="Javascript: window.location = 'https://www.youtube.com'"></i>
+  </div>
+</div>
+<div id="bottom-bar">
+  <a id="reddit" href="https://www.reddit.com/">reddit</a>
+  <a id="archlinux" href="https://www.reddit.com/r/archlinux">r/archlinux</a>
+  <a id="jokes" href="https://www.reddit.com/r/Jokes">r/Jokes</a>
+  <a id="league" href="https://www.reddit.com/r/leagueoflegends">r/leagueoflegends</a>
+  <a id="til" href="https://www.reddit.com/r/todayilearned/">r/todayilearned</a>
+  <a id="rice" href="https://www.reddit.com/r/unixporn">r/unixporn</a>
+  <a id="xda" href="https://xda-developers.com">xda</a>
+</div>
+<script src="https://use.fontawesome.com/dfa2b313d5.js"></script>
 </body>
 </html>
