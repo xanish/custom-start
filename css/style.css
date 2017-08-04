@@ -116,7 +116,7 @@ input {
   height: 24px;
   font-size: 18px;
   padding: 8px;
-  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+  box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.7);
   position: relative;
   transition: 0.2s ease;
   -webkit-touch-callout: none;
@@ -126,6 +126,10 @@ input {
   -ms-user-select: none;
   user-select: none;
   outline: none;
+}
+
+input:hover {
+  box-shadow: 1px 4px 10px 0px rgba(0,0,0,0.7);
 }
 
 #logo {
@@ -184,7 +188,7 @@ input {
   transition: 0.5s ease;
 }
 
-#archlinux {
+#askreddit {
   text-decoration: none;
   border:2px solid var(--blue);
   margin: 5px;
@@ -233,7 +237,7 @@ input {
   color: var(--white);
 }
 
-#archlinux:hover {
+#askreddit:hover {
   transition: 0.5s ease;
   text-decoration: none;
   background-color: var(--blue);
