@@ -1,14 +1,14 @@
 @import 'https://fonts.googleapis.com/css?family=Product+Sans';
 :root {
-  --main: #323638;
-  --grey: #aaaaaa;
-  --green: #2de087;
+  --main: #002b36;
+  --grey: #93a1a1;
+  --green: #859900;
   --violet: #b48ead;
-  --red: #e72d2d;
-  --blue: #678bdc;
+  --red: #dc322f;
+  --blue: #268bd2;
   --pink: #ff6f9f;
   --purple: #6255b2;
-  --yellow: #e5c07b;
+  --yellow: #b58900;
   --white: #ffffff;
 }
 
